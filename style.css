@@ -1,0 +1,110 @@
+﻿.tamanhoImagem {
+    max-width: 100%;
+}
+
+.tamanhoImagemJogador {
+    max-width: 100%;
+    max-height: 3%;
+}
+
+.textAlinha {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.fontEcalacoes {
+    font-size: 1.4em;
+}
+
+.fontNomeJogador {
+    font-size: 1.3em;
+}
+
+.escalacoes{
+    padding-top: 30%;
+}
+
+.padtop {
+    padding-top: 15px;
+}
+
+.padRight{
+    text-align: left;
+}
+
+.campinho {
+    width: 96%;
+    position: relative;
+}
+
+.jogador-img-campo {
+    max-width: 53px;
+    background-color: #fff;
+    border-radius: 27px;
+    margin-left: 37px;
+}
+
+.time-img-jogador {
+    max-width: 35px;
+    position: relative;
+    top: 20px;
+    clear: both;
+    float: right;
+    right: 15px;
+}
+
+.coluna_texto {
+    clear: both;
+    display: table;
+    text-align: center;
+    margin: auto;
+    margin-top: -5%;
+    color: #fff;
+}
+
+.background-campinho {
+    background-image: url('campinho-sem-borda.svg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.background-campinho .col {
+    margin-top: 14px;
+}
+
+.style_type2 {
+    float: left;
+    position: relative;
+    left: 120px;
+}
+
+.style_type3 {
+    left: 74px;
+    float: left;
+}
+
+.text-type3 {
+    margin: initial;
+    margin-left: 50px;
+}
+
+.no-margin-all {
+    margin: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .jogador-img-campo {
+        margin-left: 18px;
+    }
+    .time-img-jogador {
+        top: -24px;
+    }
+    .style_type2 {
+        float: left;
+        position: relative;
+        left: 89px;
+        top: 26px;
+    }
+}
